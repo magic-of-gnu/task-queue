@@ -1,2 +1,6 @@
 **/__pycache__
 **/*.pyc
+**/.pytest_cache
+**/.ruff_cache
+**/test_coverage_report
+**/pytest_report.html
