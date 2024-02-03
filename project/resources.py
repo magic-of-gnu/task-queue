@@ -4,4 +4,5 @@ from dataclasses import dataclass
 class Resources:
     ram: int
     cpu_cores: int
-    gpu_count: int
+    gpu_count: int 
+    
