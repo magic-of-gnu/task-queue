@@ -4,7 +4,7 @@ services:
 
   back-app:
     build:
-      context: project
+      context: ./
       dockerfile: Dockerfile
       target: development
     stdin_open: true
