@@ -1,5 +1,6 @@
 from dataclasses import dataclass
-from resources import Resources
+from .resources import Resources
+
 
 @dataclass
 class Task:
