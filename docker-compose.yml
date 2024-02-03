@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+
+  back-app:
+    build:
+      context: project
+      dockerfile: Dockerfile
+      target: development
+    stdin_open: true
+    tty: true
+    command: sh
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
+        volume:
+          nocopy: true
